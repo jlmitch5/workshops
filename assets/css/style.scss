@@ -39,8 +39,12 @@ section > * {
   margin-right: 20px;
 }
 
-section > ul {
+section > ul, section > ol {
   width: calc(100% - 65px);
+}
+
+section > blockquote {
+  width: calc(100% - 80px);
 }
 
 td, th {
