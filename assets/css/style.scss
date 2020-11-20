@@ -12,12 +12,17 @@ h1, h1 *,
 h2, h2 *,
 h3, h3 * {
   font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
 }
 
 h1, h1 * {
-  font-size: 32px !important;
-  line-height: 1.1 !important;
-  font-weight: normal !important;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+th {
+  font-family: 'Red Hat Display';
+  font-weight: 500;
 }
 
 a {
