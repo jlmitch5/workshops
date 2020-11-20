@@ -9,6 +9,7 @@ body {
 
 .wrapper {
   width: initial;
+  overflow: hidden;
 }
 
 header {
@@ -53,4 +54,5 @@ footer {
   width: 100%;
   bottom: 0;
   padding: 0;
+  margin: 0;
 }
