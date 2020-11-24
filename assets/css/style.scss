@@ -76,7 +76,14 @@ table, th, td {
 }
 
 td, th {
-  min-width: 92px;
+  min-width: 100px;
+}
+
+@media screen and (max-width: 550px) {
+  td, th {
+    min-width: initial;
+    width: 25%;
+  }
 }
 
 th {
