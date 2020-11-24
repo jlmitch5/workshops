@@ -64,6 +64,10 @@ section > blockquote {
   width: calc(100% - 80px);
 }
 
+img {
+  max-width: 100%;
+}
+
 // table tweaks
 
 table, th, td {
@@ -148,4 +152,47 @@ footer {
   bottom: 0;
   padding: 0;
   margin: 0;
+}
+
+.footer-container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1170px;
+  padding: 0;
+  float: initial;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 137px;
+  border: 0;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.footer-links {
+  margin-left: 20px;
+}
+
+.footer-copyright, .footer-link {
+  color: #aaa;
+  font-size: 12px;
+  font-family: 'Red Hat Text';
+}
+
+.footer-link {
+  margin-left: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Red Hat Text';
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-shadow: 0 0 0.02px white;
+  text-decoration: none;
 }
