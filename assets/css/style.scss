@@ -207,3 +207,24 @@ footer {
   text-shadow: 0 0 0.02px white;
   text-decoration: none;
 }
+
+@media screen and (max-width: 1100px) {
+  .footer {
+    height: initial;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+
+  .footer-copyright {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .footer-linkContainer {
+    width: 100%;
+    margin-left: 3px;
+  }
+}
