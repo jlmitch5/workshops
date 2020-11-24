@@ -4,6 +4,8 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
+// font and color tweaks
+
 * {
   font-family: 'Red Hat Text', sans-serif;
 }
@@ -20,19 +22,12 @@ h1, h1 * {
   line-height: 1.1;
 }
 
-th {
-  font-family: 'Red Hat Display';
-  font-weight: 500;
-}
-
-td {
-  font-family: 'Red Hat Text';
-}
-
 a {
-  color: #0166CC;
+  color: #337ab7;
   font-weight: normal;
 }
+
+// layout tweaks
 
 body {
   padding: 0;
@@ -41,15 +36,6 @@ body {
 .wrapper {
   width: initial;
   overflow: hidden;
-}
-
-header {
-  width: 100%;
-  position: initial;
-  float: initial;
-  padding: 0;
-  margin: 0;
-  border-radius: 0;
 }
 
 section {
@@ -78,9 +64,46 @@ section > blockquote {
   width: calc(100% - 80px);
 }
 
+// table tweaks
+
+table, th, td {
+  border: 1px solid #999;
+  border-collapse: collapse;
+}
+
 td, th {
   min-width: 92px;
 }
+
+th {
+  font-family: 'Red Hat Display';
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+td {
+  font-family: 'Red Hat Text';
+}
+
+// codeblock tweaks
+
+.highlighter-rouge pre.highlighter {
+  background-color: #f5f2f0;
+}
+
+// custom header
+
+header {
+  width: 100%;
+  position: initial;
+  float: initial;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+// custom footer
 
 footer {
   position: relative;
