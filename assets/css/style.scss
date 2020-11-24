@@ -170,7 +170,8 @@ footer {
   width: 140px;
   border: 0;
   margin: 0;
-  margin-left: 5px;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 .footer-copyright {
@@ -208,7 +209,7 @@ footer {
   text-decoration: none;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 860px) {
   footer {
     height: initial;
   }
@@ -220,11 +221,11 @@ footer {
 
   .footer-copyright {
     width: 100%;
-    margin-left: 10px;
+    margin-left: 25px;
   }
 
   .footer-linkContainer {
     width: 100%;
-    margin-left: 3px;
+    margin-left: 18px;
   }
 }
